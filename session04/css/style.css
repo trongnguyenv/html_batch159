@@ -1,0 +1,73 @@
+body{
+  margin: 0 auto;
+}
+.top-left{
+  width: 30%;
+  float: left;
+}
+
+a{
+  text-decoration: none;
+}
+
+ul{
+  list-style: none;
+}
+
+.top-right{
+  background-color: red;
+  width: 70%;
+  float: left;
+}
+
+.main{
+  width: 80%;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.nav-menu{
+  width: 25%;
+  float: left;
+}
+
+.baiviet{
+  width: 75%;
+  float: left;
+}
+
+.main ul li{
+  padding: 5px;
+}
+
+.main ul li a:hover{
+  color: yellow;
+}
+
+.image-post img{
+  width: 50%;
+  float: left;
+}
+
+.image-post .title{
+  float: left;
+  padding-left: 15px;
+}
+
+._content{
+  padding-left: 15px;
+}
+
+.navigator ul li{
+  float: left;
+  padding: 10px;
+
+}
+
+footer{
+  background-color: #AE1A1F;
+  text-align: center;
+  padding: 5px;
+}
+
+

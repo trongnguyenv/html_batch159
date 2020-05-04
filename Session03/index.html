@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Session 03 - Form</title>
+    <!-- Gọi file css -->
+    <link href="css/style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <!-- <p><mark> &#128512;Tác giả: <span style="color: red;">Trần Minh Hiền</span></mark></p> -->
+    <!-- <h2>Form Login</h2> -->
+    <p class="para">Form Login</p>
+    <form action="#">
+      <label for="email">Email:</label>
+      <input type="email" name="email" required
+      placeholder="Nhập email của bạn"/><br />
+
+      <label for="username">UserName:</label>
+      <input type="text" name="username" required 
+      placeholder="Vui lòng nhập username"/><br />
+
+      <label for="password">Password:</label>
+      <input type="password" name="password" required 
+      placeholder="Vui lòng nhập password"/><br />
+
+      <label for="gender">Gender:</label>
+      <input type="radio" id="male" name="gender" checked>Male
+      <input type="radio" id="female" name="gender">Female<br/>
+
+      <label for="number">Count</label>
+      <input type="number" name="number" min="5" max="10" value="5"> <br/>
+
+      <label for="message">Message:</label>
+      <textarea name="message"></textarea><br/>
+
+      <label for="price">Price:</label>
+      <input type="range" name="price" min="1" max="100"><br/>
+
+      <label for="calendar">Calendar</label>
+      <input type="date"  name="calendar"> <br/>
+
+      <label for="">Loại Phương Tiện</label>
+      <select>
+        <option value="xemay">Xe Máy</option>
+        <option value="xedap">Xe Đạp</option>
+        <option value="xebuyt">Xe Buýt</option>
+        <option value="maybay">Máy Bay</option>
+      </select>
+      <br/>
+
+      <label for="setcolor">Color</label>
+      <input type="checkbox"> Red
+      <input type="checkbox"> Yellow
+      <input type="checkbox"> Green
+      <input type="checkbox"> Blue
+
+      <br/>
+      <input type="submit" value="Submit" />
+    </form>
+  </body>
+</html>

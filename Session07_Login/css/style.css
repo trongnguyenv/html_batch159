@@ -1,0 +1,37 @@
+.bg-gradient-primary{
+    background-color: #224abe;
+}
+
+.bg-login-image {
+    background: url('../images/photo-1518020382113-a7e8fc38eac9\ \(1\).jfif');
+    background-position: center;
+    background-size: cover;
+}
+
+.form-group{
+    margin-bottom: 1rem;
+}
+
+form.user .form-control-user {
+    font-size: .8rem;
+    border-radius: 10rem;
+    padding: 1.5rem 1rem;
+}
+
+form.user .btn-user {
+    font-size: .8rem;
+    border-radius: 10rem;
+    padding: .75rem 1rem;
+}
+
+.btn-google {
+    color: #fff;
+    background-color: #ea4335;
+    border-color: #fff;
+}
+
+.btn-facebook {
+    color: #fff;
+    background-color: #3b5998;
+    border-color: #fff;
+}

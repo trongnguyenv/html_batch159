@@ -1,0 +1,82 @@
+body {
+  font-family: Helvetica, Arial, sans-serif;
+  margin-bottom: 30px;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1,
+p,
+.title,
+.rdio,
+.inputtext,
+.slect,
+.btn {
+  margin: 10px;
+}
+
+.container {
+  width: 50%;
+  margin: 0 auto;
+}
+
+.inputtext,
+.slect {
+  padding: 8px 10px;
+}
+
+/* #form {
+  border: 1px solid royalblue;
+} */
+
+.title {
+  color: #90949c;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.inputtext {
+  font-size: 18px;
+  border-color: #bdc7d8;
+  border-radius: 5px;
+}
+
+._m58 {
+  width: 490px;
+}
+
+.policy {
+  font-size: 12px;
+}
+
+.btn {
+  padding: 7px 30px;
+  font-size: 19px;
+  font-weight: bold;
+  color: #fff;
+  background-color: #578843;
+  border-radius: 5px;
+}
+
+/* Css for page profile */
+._ptext,
+._ptitle,
+._input,
+._radio {
+  margin: 10px;
+}
+._ptext{
+  font-size: 25px;
+}
+
+._ptitle {
+  text-align: right;
+  font-weight: bold;
+}
+
+._input {
+  margin-left: 15px;
+  padding: 5px;
+}
